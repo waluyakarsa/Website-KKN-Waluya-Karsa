@@ -1,0 +1,318 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fefefe;
+  color: #020324;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #020324;
+}
+
+.kkn-font {
+  font-family: "Aref Ruqaa", serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/* Hero */
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 0 1rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+}
+
+.hero {
+  background: url("../img/kebunkopi.webp") no-repeat center center;
+  background-size: cover;
+  background-position-y: -6rem;
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hero a {
+  background-color: #3c8c3d; /* hijau */
+  border-color: #3c8c3d;
+  color: #ffffff;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+#tentang {
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+}
+
+/* Section */
+section {
+  padding: 60px 0;
+}
+
+/* Card Button */
+.btn-outline-primary {
+  color: #427da0;
+  border-color: #427da0;
+}
+
+.btn-outline-primary:hover {
+  background-color: #427da0;
+  color: white;
+}
+
+#kontak h5 {
+  margin-top: 12px;
+  color: #212246;
+}
+
+#kontak a:hover {
+  text-decoration: underline;
+}
+
+.kotak-saran-title {
+  color: #212246;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.card-title {
+  color: #3c8c3d;
+}
+
+/* Produk Page */
+.produk .card-title {
+  color: #3c8c3d;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.produk img {
+  height: 400px;
+  object-fit: cover;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+@media (max-width: 576px) {
+  .produk .card-title {
+    font-size: 1.2rem;
+  }
+
+  .produk .card-text {
+    font-size: 0.95rem;
+  }
+
+  .produk img {
+    height: auto;
+    max-height: 250px;
+  }
+
+  .produk .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Program Page */
+.program .card-title {
+  color: #3c8c3d;
+  font-weight: 600;
+}
+
+.program .card-text {
+  font-size: 0.95rem;
+}
+
+.program .card-img-top {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #3c8c3d; /* hijau brand */
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+  .program .card-title {
+    font-size: 1.1rem;
+  }
+
+  .program .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Container program detail */
+.detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Carousel lebih kecil */
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #f4f4f4;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tombol navigasi carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #3c8c3d;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Paragraf teks */
+.program-intro,
+.detail-container p {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  .carousel-container {
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .detail-container {
+    padding: 0 1rem;
+  }
+}
+
+/* Kegiatan Harian */
+.kegiatan .card-title {
+  color: #3c8c3d;
+  font-weight: 600;
+}
+
+.kegiatan .badge {
+  background-color: #3c8c3d;
+  font-size: 0.75rem;
+}
+
+/* Kegiatan Harian - foto dalam card landscape */
+.kegiatan .card-img-top {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+/* Headline & Slogan */
+.headline-badge {
+  background-color: #3c8c3d;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.4rem;
+  letter-spacing: 0.5px;
+}
+
+.slogan {
+  font-size: 1.05rem;
+  color: #212246;
+}
+
+/* Intro split-section */
+.intro-about img {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* Batasi konten visi & misi */
+.about-container {
+  max-width: 900px;
+}
+
+/* Kartu dosen */
+.lecturer-card img {
+  height: 230px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom: 3px solid #3c8c3d; /* aksen hijau brand */
+}
+
+/* Kartu tim */
+.team-card img {
+  height: 230px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* foto anggota divisi */
+.division-member img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #3c8c3d;
+}
+.division-member p {
+  font-size: 0.9rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #020324;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    font-size: 0.7rem;
+  }
+}
