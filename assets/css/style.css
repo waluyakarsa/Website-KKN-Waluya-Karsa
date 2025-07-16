@@ -218,6 +218,7 @@ section {
   .carousel-container {
     max-width: 100%;
     aspect-ratio: 16 / 9;
+    object-fit: cover;
   }
 
   .detail-container {
